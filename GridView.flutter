@@ -1,0 +1,38 @@
+body:Column(
+        children: [
+          Container(
+            height: 200,
+            child: GridView.count(crossAxisCount: 4,
+              crossAxisSpacing: 11,
+              mainAxisSpacing: 11,
+              children: [
+                Container(color: arrnames[0],),
+                Container(color: arrnames[1],),
+                Container(color: arrnames[2],),
+                Container(color: arrnames[3],),
+                Container(color: arrnames[4],),
+                Container(color: arrnames[5],),
+                Container(color: arrnames[6],),
+              ],
+          ),
+          )
+        ],
+      ),
+      GridView.extent(maxCrossAxisExtent: 50,
+            crossAxisSpacing: 11,
+            mainAxisSpacing: 11,
+            children: [
+              Container(color: arrnames[0],),
+              Container(color: arrnames[1],),
+              Container(color: arrnames[2],),
+              Container(color: arrnames[3],),
+              Container(color: arrnames[4],),
+              Container(color: arrnames[5],),
+              Container(color: arrnames[6],),
+            ]
+            ),
+
+
+    );
+  }
+}
